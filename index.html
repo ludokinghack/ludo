@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ludokings</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000 // Adjust the interval between slide transitions (in milliseconds)
+        });
+      });
+    </script>
+</head>
+<body>
+    <h1><center><font color="blue">LUDO HACKS</font></center></h1>
+    <div class="plan">
+        <ul>
+            <li><i class="fa fa-home" aria-hidden="true"></i><a href="#">HOME</a></li>
+            <li><i class="fa fa-sign-in" aria-hidden="true"></i><a href="am.html">LOGIN</a></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="so.html">SUPPORT</a></li>
+            <li><i class="fa fa-info-circle" aria-hidden="true"></i><a href="#">MORE</a></li>
+        </ul>
+    </div>
+    <div class="image-container" id="slider">
+        <img src="lodotips.jpg" alt="Scrolling Image">
+        <img src= "lodoha.jpg"alt="Scrolling Image">
+        <img src="unlimit.jpg" alt="Scrolling Image">
+        
+    </div>
+    <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+          </div>
+          <div class="form-group">
+            <label for="datetime">Date and JOIN</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+</body>
+
+</html>
